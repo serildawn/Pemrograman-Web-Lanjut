@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="col-md-4">
+    <form novalidate [formGroup]="mahasiswa" (ngSubmit)="onSubmit(mahasiswa)">
+      <div class="form-group">
+        <label for="nama_mahasiswa">Nama Mahasiswa</label>
+        <input id="nama_mahasiswa" class="form-control" type="text" formControlName="nama_mhs" placeholder="nama mahasiswa" aria-describedby="namamhs"/>
+      </div>
+      <div formGroupName="pendidikan">
+        <div class="form-group">
+          <label for="jurusan">Jurusan</label>
+          <input
+           id="nama_jurusan" 
+           class="form-control"
+            type="text"
+             placeholder="jurusan" 
+             formControlName="nama_jurusan" />
+        </div>
+        <div class="form-group">
+          <label for="ProgramStudi">Program Studi</label>
+          <input id="nama_program_studi" class="form-control" type="text"  formControlName="nama_prodi" placeholder="program studi" />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>

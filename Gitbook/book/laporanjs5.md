@@ -78,7 +78,7 @@ export class AppComponent{
 
 - hasilnya adalah:
 
-![](image/chapter1/5/else2.jpg)
+![](image/chapter1/5/else2.png)
 
 ---
 ##### *cara ketiga*
@@ -169,7 +169,7 @@ viewMode='map';
 
 - Maka hasilnya:
 
-![](image/chapter1/5/hasilsc.jpg)
+![](image/chapter1/5/hasilsc.png)
 
 ---
 ####6.1 ngFor
@@ -197,7 +197,7 @@ coursesFor=[
 
 - Maka hasilnya adalah:
 
-![](image/chapter1/5/hasilngfor.jpg)
+![](image/chapter1/5/hasilngFor.png)
 
 - Kita juga dapat memberi tanda tertentu pada index yang bernilai ganjil dengan menggunakan isEven
 
@@ -213,7 +213,7 @@ coursesFor=[
 
 - Maka hasilnya adalah :
 
-![](image/chapter1/5/ngforeven.jpg)
+![](image/chapter1/5/ngforeven.png)
 
 ---
 ####6.1 ngFor dan change Detection 
@@ -240,7 +240,7 @@ onAdd(){
 
 - Maka hasilnya bila di tekan tombol add:
 
-![](image/chapter1/5/ngforadd.jpg)
+![](image/chapter1/5/ngforadd.png)
 
 
 - Menambahkan sebuah method onRemove pada **app.component.ts**
@@ -262,9 +262,9 @@ onRemove(item) {
 
 - Maka hasilnya:
 
-![](image/chapter1/5/remove.jpg)
+![](image/chapter1/5/remove.png)
 
-![](image/chapter1/5/setelahdiremove.jpg)
+![](image/chapter1/5/setelahdiremove.png)
 
 - Menambahkan method onChange() pada app.component.ts
 ```
@@ -279,7 +279,7 @@ onRemove(item) {
 ```
 - Maka hasilnya :
 
-![](image/chapter1/5/update.jpg)
+![](image/chapter1/5/update.png)
 
 ---
 ####6.1 ngFor dan trackby
@@ -308,9 +308,9 @@ courseForOne;
 
 - Maka hasilnya saat di click:
 
-![](image/chapter1/5/tampilkandata.jpg)
+![](image/chapter1/5/tampilkandata.png)
 
-![](image/chapter1/5/setelahdikliktampilkan.jpg)
+![](image/chapter1/5/setelahdikliktampilkan.png)
 
 - Menambahkan TrackBy dengan cara menambahkan pada **app.component.html** pada directive ngFor 
 
@@ -359,11 +359,11 @@ ng <ng-template [ngIf]="courses.length>0">
 ####6.1 Custom Directive
 - Membuat directive dengan nama input-format
 
-![](image/chapter1/5/installdirective.jpg)
+![](image/chapter1/5/installdirective.png)
 
 - Buka file **app.module.ts** memastikan pada @NgModel terdapat input-format yang sudah di buat
 
-![](image/chapter1/5/setelahinstall.jpg)
+![](image/chapter1/5/setelahinstall.png)
 
 - Buka file **input-format.directive.ts** kemudian menambahkan decorator HostListener
 

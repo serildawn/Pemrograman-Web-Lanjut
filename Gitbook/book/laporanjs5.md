@@ -32,11 +32,11 @@ export class AppComponent {
 ```
 - Hasilnya:
 
-![](image/chapter1/5/1.jpg)
+![](image/chapter1/5/1.png)
 
 - Jika array pada **app.component.ts** di kosongkan maka hasilnya:
 
-![](image/chapter1/5/1.arraykosong.jpg)
+![](image/chapter1/5/1.arraykosong.png)
 
 ---
 
@@ -64,7 +64,7 @@ export class AppComponent{
 
 - hasilnya adalah:
 
-![](image/chapter1/5/else1.jpg)
+![](image/chapter1/5/else1.png)
 
 - jalankan dengan kondisi array ada isi pada **app.component**
 
@@ -393,6 +393,6 @@ ng <ng-template [ngIf]="courses.length>0">
 
 ![](image/chapter1/5/akhir1.png)
 
-![](image/chapter1/5/akhir2.jpg)
+![](image/chapter1/5/akhir2.png)
 
 

@@ -2,7 +2,7 @@
 ---
 ####8.1 Building a Bootstrap Form
 - Membuat component baru dengan nama signup-form dengan perintah **ng g c signup-form**
- ![](image/chapter1/8/p1.jpg) 
+ ![](image/chapter1/8/p1.png) 
 - Memodifikasi **app.component.html** 
 
 ```
@@ -33,7 +33,7 @@
 ```
 - Hasil dari soal 1 : 
 
-![](image/chapter1/8/soal1.jpg) 
+![](image/chapter1/8/soal1.png) 
 ---
 ####8.2 Control Programmatically
 - Modifikasi file **signup-form.component.ts** seperti dibawah ini:
@@ -90,7 +90,7 @@ export class SignupFormComponent implements OnInit {
 
 - Hasil dari soal 2:
 
- ![](image/chapter1/8/p2.3.jpg) 
+ ![](image/chapter1/8/p2.3.png) 
 
 - Modifikasi file **app.module.ts** tambahkan kode berikut:
 ```
@@ -106,7 +106,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 ```
 - Hasil dari soal 3:
 
- ![](image/chapter1/8/soal3.jpg) 
+ ![](image/chapter1/8/soal3.png) 
 
 ---
 ####8.3 Adding Validation 
@@ -137,7 +137,7 @@ formControlName="username"
 ```
 - Hasil dari soal 4:
 
- ![](image/chapter1/8/soal4.jpg) 
+ ![](image/chapter1/8/soal4.png) 
 
 - Menambahkan get username pada file **signup-form.component.ts** seperti berikut:
 
@@ -181,7 +181,7 @@ getUsername (){
 
 - Hasil dari soal 6:
 
- ![](image/chapter1/8/soal6.jpg)
+ ![](image/chapter1/8/soal6.png)
 - Memodifikasi **signup-form.component.html** menjadi seperti berikut:
 
 ```
@@ -224,6 +224,8 @@ export class UsernmaeValidators{
 ```
 - Hasil dari soal 8:
 
+![](image/chapter1/8/soal8.png)
+
 
 ---
 ####8.6 Asyncronus Validation
@@ -261,7 +263,7 @@ form = new FormGroup({
 ```
 - Hasil dari soal 9:
 
- ![](image/chapter1/8/soal9.jpg)
+ ![](image/chapter1/8/soal9.png)
 
 ---
 ####8.7 Displaying a Loader Image

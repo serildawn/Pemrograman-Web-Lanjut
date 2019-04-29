@@ -181,7 +181,7 @@ updatePost(post){
 
 - Soal 7
 
-![](image/chapter1/9/soal7.jpg)
+![](image/chapter1/9/soal7.png)
 
 ---
 

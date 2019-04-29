@@ -29,7 +29,7 @@
 ```
 - Kemudian menjalankan di server
 
-![](image/chapter1/6/1.jpg)
+![](image/chapter1/6/1.png)
 
 ---
 ####6.2 Macam-Macam Form 
@@ -67,7 +67,7 @@
 ```
 - Sehingga hasilnya:
 
-![](image/chapter1/6/2.jpg)
+![](image/chapter1/6/2.png)
 
 - Membuat interface dengan nama mahasiswa.interface.html dan mengisi code berikut:
 ```
@@ -151,7 +151,7 @@ export class ReactiveFormComponent implements OnInit {
 ```
 - Menjalankan server local host maka hasilnya :
 
-![](image/chapter1/6/2lanjut.jpg)
+![](image/chapter1/6/2lanjut.png)
 
 - Untuk template-driven membutuhkan FormsModul pada app.module.ts jadi buka app.module.ts dan menambahkan form module
 ```
@@ -306,7 +306,7 @@ export class ContactComponent implements OnInit {
 
 - Coba jalan servernya dan lihat terdapat pesan error seperti pada gambar berikut :
 
-![](image/chapter1/6/6.3error.jpg)
+![](image/chapter1/6/6.3error.png)
 
 - Menambahkan atribut name pada tag input:
 
@@ -336,13 +336,13 @@ export class ContactComponent implements OnInit {
 ```
 - Hasil nya:
 
-![](image/chapter1/6/6.3.1.jpg)
+![](image/chapter1/6/6.3.1.png)
 
 - Membuka file **contact.component.html**
 - Membuka file **contact.component.ts** modifikasi code berikut ini 
 - Menjalankan server dan lihat pada inspect maka akan muncul property dari ngModel 
 
-![](image/chapter1/6/6.3inspect.jpg)
+![](image/chapter1/6/6.3inspect.png)
 
 ---
 ####6.4 Validasi
@@ -367,7 +367,7 @@ export class ContactComponent implements OnInit {
 
 - Maka hasilnya:
 
-![](image/chapter1/6/6.4.jpg)
+![](image/chapter1/6/6.4.png)
 
 - Menambahkan suatu kondisi di `contact.component.html`
 
@@ -394,7 +394,7 @@ export class ContactComponent implements OnInit {
 
 - Maka hasilnya:
 
-![](image/chapter1/6/6.5.jpg)
+![](image/chapter1/6/6.5.png)
 
 ---
 ####6.6 styling Invalid input field 
@@ -407,7 +407,7 @@ export class ContactComponent implements OnInit {
 
 - Maka hasilnya:
 
-![](image/chapter1/6/6.6.jpg)
+![](image/chapter1/6/6.6.png)
 
 ---
 ####6.7 ngFor
@@ -473,14 +473,14 @@ log(z) {
 ```
 - Maka hasilnya:
 
-![](image/chapter1/6/6.9.jpg)
+![](image/chapter1/6/6.9.png)
 
 ---
 ####6.10 Bekerja dengan check box
 - Membuka file **contact.component.html** dan tambahkan code check box
 - hasil:
 
-![](image/chapter1/6/6.10.jpg)
+![](image/chapter1/6/6.10.png)
 
 ---
 ####6.11 Bekerja dengan drop-down list 
@@ -507,7 +507,7 @@ contactMethods=[
 ```
 - Hasilnya:
 
-![](image/chapter1/6/6.11.jpg)
+![](image/chapter1/6/6.11.png)
 
 -  Selain itu kita juga dapat menampilkan property id dan property nama dengan menggunakan property ngValue seperti berikut :
 
@@ -556,7 +556,7 @@ contactMethods=[
 
 - Maka hasilnya
 
-![](image/chapter1/6/6.12.jpg)
+![](image/chapter1/6/6.12.png)
 
 
 

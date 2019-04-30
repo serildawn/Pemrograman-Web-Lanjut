@@ -34,6 +34,9 @@
 ---
 ####6.2 Macam-Macam Form 
 - Generate 2 buah component dengan nama reactive-form dan template-driven
+
+![](image/chapter1/6/generatecomponent.png)
+
 - Membuka file di reactive-form.component dan membuat code berikut:
 
 ```
@@ -306,7 +309,7 @@ export class ContactComponent implements OnInit {
 
 - Coba jalan servernya dan lihat terdapat pesan error seperti pada gambar berikut :
 
-![](image/chapter1/6/6.3error.png)
+![](image/chapter1/6/6.3.error.png)
 
 - Menambahkan atribut name pada tag input:
 
@@ -339,7 +342,9 @@ export class ContactComponent implements OnInit {
 ![](image/chapter1/6/6.3.1.png)
 
 - Membuka file **contact.component.html**
-- Membuka file **contact.component.ts** modifikasi code berikut ini 
+
+![](image/chapter1/6/6.3.ngmodel.png)
+
 - Menjalankan server dan lihat pada inspect maka akan muncul property dari ngModel 
 
 ![](image/chapter1/6/6.3inspect.png)
@@ -382,7 +387,7 @@ export class ContactComponent implements OnInit {
 ```
 
 ---
-####6.5 Spesific validasi error 
+#### 6.5 Spesific validasi error 
 - Membuka file **conctact.component.html** dan tambahkan beberapa code berikut 
 ```
  <div *ngIf = "firstName.errors['required']">Nama harus diisi</div>
@@ -397,7 +402,7 @@ export class ContactComponent implements OnInit {
 ![](image/chapter1/6/6.5.png)
 
 ---
-####6.6 styling Invalid input field 
+#### 6.6 styling Invalid input field 
 - Membuka file contact.component.css dan tambahkan code berikut
 ```
 .form-control.ng-touched.ng-invalid{
@@ -410,7 +415,7 @@ export class ContactComponent implements OnInit {
 ![](image/chapter1/6/6.6.png)
 
 ---
-####6.7 ngFor
+#### 6.7 ngFor
 - buka file contact.component.ts dan tambahkan sebuah method submit seperti  berikut:
 
 ```
@@ -448,7 +453,7 @@ log(z) {
 
 ```
 
-- pada button
+- pada button merubah codenya menjadi :
 
 ```
  <button type="submit" class="btn btn-primary">
@@ -456,7 +461,7 @@ log(z) {
       </button>
 ```
 ---
-####6.8 ngModelGroup 
+#### 6.8 ngModelGroup 
 - buka file contact.component.html dan tambahkan code 
 ```
  <div ngModelGroup="contact" #contact="ngModelGroup"></div>
@@ -507,7 +512,7 @@ contactMethods=[
 ```
 - Hasilnya:
 
-![](image/chapter1/6/6.11.png)
+![](image/chapter1/6/6.11contactmethod.png)
 
 -  Selain itu kita juga dapat menampilkan property id dan property nama dengan menggunakan property ngValue seperti berikut :
 
@@ -516,6 +521,10 @@ contactMethods=[
             <option *ngFor = "let method of contactMethods" [ngValue]="method">{{method.name}}</option>
             
 ```
+- Hasilnya:
+
+![](image/chapter1/6/6.11email.png)
+
 - Selain itu juga kita dapat menggunakan multiple jika ingin memilih keduanya seperti berikut:
 
 ```
@@ -523,8 +532,13 @@ contactMethods=[
             <option *ngFor = "let method of contactMethods" [ngValue]="method">{{method.name}}</option>
 
 ```
+
+- Hasilnya :
+
+![](image/chapter1/6/6.11multiple.png)
+
 ---
-####6.12 Bekerja dengan radio button 
+#### 6.12 Bekerja dengan radio button 
 - Membuka file contact.component.html dan tambahkan code beriku:
 
 ```

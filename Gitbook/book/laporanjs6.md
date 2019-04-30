@@ -469,7 +469,7 @@ log(z) {
 ```
 
 ---
-####6.9 Disabling the submit button 
+#### 6.9 Disabling the submit button 
 - buka file contact.component.html dan tambahkan code berikut pada tag button :
 
 ```
@@ -481,14 +481,14 @@ log(z) {
 ![](image/chapter1/6/6.9.png)
 
 ---
-####6.10 Bekerja dengan check box
+#### 6.10 Bekerja dengan check box
 - Membuka file **contact.component.html** dan tambahkan code check box
 - hasil:
 
 ![](image/chapter1/6/6.10.png)
 
 ---
-####6.11 Bekerja dengan drop-down list 
+#### 6.11 Bekerja dengan drop-down list 
 - Membuka file contact.component.html tambahkan code untuk dropdown list 
 
 ```
@@ -512,7 +512,7 @@ contactMethods=[
 ```
 - Hasilnya:
 
-![](image/chapter1/6/6.11contactmethod.png)
+![](image/chapter1/6/6.11contact method.png)
 
 -  Selain itu kita juga dapat menampilkan property id dan property nama dengan menggunakan property ngValue seperti berikut :
 

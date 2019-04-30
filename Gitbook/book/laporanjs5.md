@@ -353,7 +353,12 @@ ng <ng-template [ngIf]="courses.length>0">
 ---
 ####6.1 ngClass 
 - Membuat 2 class binding `fa-star` dan `fa-star-o`
+
+![](image/chapter1/5/ng1.png)
+
 - Membuat atrribute directive class untuk fa
+
+![](image/chapter1/5/ng2.png)
 
 ---
 ####6.1 Custom Directive
@@ -367,6 +372,8 @@ ng <ng-template [ngIf]="courses.length>0">
 
 - Buka file **input-format.directive.ts** kemudian menambahkan decorator HostListener
 
+![](image/chapter1/5/input1.png)
+
 - Buka file **app.component.html** kemudian menambahkan code berikut:
 
 ```
@@ -376,11 +383,14 @@ ng <ng-template [ngIf]="courses.length>0">
 <router-outlet></router-outlet>
 
 ```
-- buka file app.component.html dan tambahkan property binding dengan nama format 
+- Membuka file app.component.html dan tambahkan property binding dengan nama format 
 ```
 &nbsp;<input type="text" appInputFormat [format] = "'lowercase'">
 ```
-- buka file input-format.directive.ts tambahkan decorator input dan modifikasi codenya
+- Membuka file input-format.directive.ts tambahkan decorator input dan modifikasi codenya
+
+![](image/chapter1/5/input.png)
+
 - Mengubah menjadi uppercase
 ```
 &nbsp;<input type="text" appInputFormat [format] = "'uppercase'">

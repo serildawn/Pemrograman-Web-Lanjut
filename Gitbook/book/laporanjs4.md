@@ -89,6 +89,7 @@ export class CoursesComponent implements OnInit {
 ![](image/chapter1/p2.6.png)
 
 - Maka hasilnya seperti berikut :
+
 ![](image/chapter1/j4soal3.png)
 
 ---
@@ -163,7 +164,8 @@ export class CoursesComponent implements OnInit {
 
 
 
-- Hasilnya
+- Hasilnya:
+
  ![](image/chapter1/p6a.png) 
 
 ---
@@ -175,6 +177,7 @@ export class CoursesComponent implements OnInit {
 ```
 
 - Menambahkan parameter nama pada method onKeyUp():
+
 ![](image/chapter1/p7.png) 
  
 
@@ -186,8 +189,6 @@ export class CoursesComponent implements OnInit {
  <input type="text" [value]="nama" (keyup.enter)="nama = $event.target.value;onKeyUp()"> 
 
 ```
-- Soal 11
-  ![](image/chapter1/j4soal11.png)
 
 - Membuka file **app.module.ts** dan menambahkan formmodule seperti berikut:
  ![](image/chapter1/p8.png)
@@ -195,6 +196,4 @@ export class CoursesComponent implements OnInit {
 - Membuka **courses.component.html**, lalu memodifikasi codenya seperti berikut:
  ![](image/chapter1/p8a.png)
 
-- Soal 12
 
- ![](image/chapter1/j4soal12.png)

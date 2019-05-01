@@ -1,6 +1,6 @@
-#Laporan JS8
+# Laporan JS8
 ---
-####8.1 Building a Bootstrap Form
+#### 8.1 Building a Bootstrap Form
 - Membuat component baru dengan nama signup-form dengan perintah **ng g c signup-form**
  ![](image/chapter1/8/p1.png) 
 - Memodifikasi **app.component.html** 
@@ -34,8 +34,9 @@
 - Hasil dari soal 1 : 
 
 ![](image/chapter1/8/soal1.png) 
+
 ---
-####8.2 Control Programmatically
+#### 8.2 Control Programmatically
 - Modifikasi file **signup-form.component.ts** seperti dibawah ini:
 
 ```
@@ -109,7 +110,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
  ![](image/chapter1/8/soal3.png) 
 
 ---
-####8.3 Adding Validation 
+#### 8.3 Adding Validation 
 - Modifikasi signup-form.component.ts menjadi seperti berikut:
 ```
 import { Component, OnInit } from '@angular/core';
@@ -159,7 +160,7 @@ getUsername (){
 - Hasil dari soal 5:
 
 ---
-####8.4 Specific Validation Errors
+#### 8.4 Specific Validation Errors
 - Modifikasi **signup-form.component.ts** menjadi seperti berikut:
 ```
  form = new FormGroup({
@@ -192,7 +193,7 @@ getUsername (){
 ```
 
 ---
-####8.5 Custome Validation
+#### 8.5 Custome Validation
 - Buat file baru pada folder signup-form dengan nama username.validators.ts dan isi dengan script sebagai berikut:
 
 ```
@@ -228,7 +229,7 @@ export class UsernmaeValidators{
 
 
 ---
-####8.6 Asyncronus Validation
+#### 8.6 Asyncronus Validation
 - Modifikas file username.validators.ts seperti berikut:
 ```
 static unique (control: AbstractControl): Promise < ValidationErrors | null > {
@@ -266,7 +267,7 @@ form = new FormGroup({
  ![](image/chapter1/8/soal9.png)
 
 ---
-####8.7 Displaying a Loader Image
+#### 8.7 Displaying a Loader Image
 - Modifikasi **signup-form.component.html**, tambahkan <div> seperti berikut:
 ```
 <div *ngIf="username.pending">Checking for uniquiness....</div>
@@ -277,7 +278,7 @@ form = new FormGroup({
 
 
 ---
-####8.8 Validating Form on Submit
+#### 8.8 Validating Form on Submit
 - Modifikasi signup-form.component.ts, dengan menambahkan method login() seperti berikut:
 ```
 login(){

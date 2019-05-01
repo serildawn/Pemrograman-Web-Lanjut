@@ -1,6 +1,6 @@
-#Laporan JS5
+# Laporan JS5
 ---
-####6.1 ngIF
+#### 6.1 ngIF
 - Membuka **app.component.ts** 
 
 ```
@@ -117,7 +117,7 @@ export class AppComponent{
 ```
 
 ---
-####6.1 Hidden Property
+#### 6.1 Hidden Property
 - Membuka **app.component.html**
 
 ```
@@ -133,7 +133,7 @@ export class AppComponent{
 ```
 
 ---
-####6.1 ngSwitchCase
+#### 6.1 ngSwitchCase
 - Membuka file **app.component.html**
 
 ```
@@ -172,7 +172,7 @@ viewMode='map';
 ![](image/chapter1/5/hasilsc.png)
 
 ---
-####6.1 ngFor
+#### 6.1 ngFor
 - Membuka **app.component.ts** menambahkan property CoursesFor yang berisikan array 
 
 ```
@@ -216,7 +216,7 @@ coursesFor=[
 ![](image/chapter1/5/ngforeven.png)
 
 ---
-####6.1 ngFor dan change Detection 
+#### 6.1 ngFor dan change Detection 
 - Menambahkan button pada **app.component.html**
 
 ```
@@ -282,7 +282,7 @@ onRemove(item) {
 ![](image/chapter1/5/update.png)
 
 ---
-####6.1 ngFor dan trackby
+#### 6.1 ngFor dan trackby
 - Membuka file app.component.ts membuat sebuah method dengan nama loadCourses 
 ```
 courseForOne;
@@ -330,7 +330,7 @@ trackCourse(index,itemone) {
 
 
 ---
-####6.1 The leading Asterik 
+#### 6.1 The leading Asterik 
 - Menambahkan code pada **app.component.html**
 
 ```
@@ -351,7 +351,7 @@ ng <ng-template [ngIf]="courses.length>0">
 ```
 
 ---
-####6.1 ngClass 
+#### 6.1 ngClass 
 - Membuat 2 class binding `fa-star` dan `fa-star-o`
 
 ![](image/chapter1/5/ng1.png)
@@ -361,7 +361,7 @@ ng <ng-template [ngIf]="courses.length>0">
 ![](image/chapter1/5/ng2.png)
 
 ---
-####6.1 Custom Directive
+#### 6.1 Custom Directive
 - Membuat directive dengan nama input-format
 
 ![](image/chapter1/5/installdirective.png)

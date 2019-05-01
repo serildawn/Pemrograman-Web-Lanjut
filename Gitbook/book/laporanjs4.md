@@ -1,6 +1,6 @@
-#Laporan JS4
+# Laporan JS4
 ---
-####Praktikum bagian 1
+#### Praktikum bagian 1
 - Membuka file ** course.component.ts ** menambahkan code berikut ini :
 ![](image/chapter1/p1.1.jpg)
 - Membuka file ** course.component.html ** tambahkan code berikut ini :
@@ -9,7 +9,7 @@
 
 ![](image/chapter1/j4soal1.jpg)
 ---
-####Praktikum bagian 2
+#### Praktikum bagian 2
 - Membuka file ** courses.component.ts ** tambahkan property colspan dibawah line imageUrl.
 ![](image/chapter1/p2.1.jpg)
 - Membuka file ** courses.component.html ** dan menambahkan berikut ini :
@@ -32,7 +32,7 @@
 ![](image/chapter1/j4soal3.jpg)
 
 ---
-####Praktikum bagian 3
+#### Praktikum bagian 3
 - Buka file ** courses.component.ts ** kemudian menambah propery ` isActive = true ` setelah line ` colspan = 2;`.
 
  ![](image/chapter1/p3.1.jpg)
@@ -41,12 +41,12 @@
 
  ![](image/chapter1/p3.3.jpg)
 ---
-####Praktikum bagian 4
+#### Praktikum bagian 4
 - Membuka file ** courses.component.html ** kemudian tambahkan code berikut :
   ![](image/chapter1/p4.1.jpg)
 
 ---
-####Praktikum bagian 5
+#### Praktikum bagian 5
 - Membuka file ** course.component.ts ** dan buatlah method dengan nama ` onSave() `.
  ![](image/chapter1/p5.1.jpg)
 - Membuka file ** courses.component.html ** dan menambahkan ` event click `.
@@ -77,16 +77,22 @@
 - Menjalankan localhost dan melakukan inspect elemen. 
   ![](image/chapter1/j4soal7.jpg) 
 ---
-####Praktikum bagian 6
+#### Praktikum bagian 6
 
 - Soal 8
+ ![](image/chapter1/j4soal8.jpg) 
 - Soal 9
+ ![](image/chapter1/j4soal9.jpg) 
 
 ---
-####Praktikum bagian 7
+#### Praktikum bagian 7
 - Soal 10 
+ ![](image/chapter1/j4soal10.jpg) 
 
 ---
-####Praktikum bagian 8
+#### Praktikum bagian 8
+- membuat property baru dengan nama ` nama = 'serildawn'; `.
+- menambahkan parameter nama di onKeyUp ` <input type="text" [value]="nama" (keyup.enter)="nama = $event.target.value;onKeyUp()"> `.
 - Soal 11
+  ![](image/chapter1/j4soal11.jpg)
 - Soal 12

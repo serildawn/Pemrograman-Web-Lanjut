@@ -1,7 +1,7 @@
-#Laporan JS6
+# Laporan JS6
 ---
-####6.1 Membuat Form Bootstrap
-- Membuat sebuah component dengan nama contact
+#### 6.1 Membuat Form Bootstrap
+- Membuat sebuah component dengan nama contact ` ng g c contact `
 - Membuka file contact.component.html dengan menambahkan code :
 ```
 <div class="container">
@@ -32,7 +32,7 @@
 ![](image/chapter1/6/1.png)
 
 ---
-####6.2 Macam-Macam Form 
+#### 6.2 Macam-Macam Form 
 - Generate 2 buah component dengan nama reactive-form dan template-driven
 
 ![](image/chapter1/6/generatecomponent.png)
@@ -260,7 +260,7 @@ onSubmit(){
 
 ```
 ---
-####6.3 ngModel 
+#### 6.3 ngModel 
 - Membuka file **contact-form.component.html**
 
 ```
@@ -350,7 +350,7 @@ export class ContactComponent implements OnInit {
 ![](image/chapter1/6/6.3inspect.png)
 
 ---
-####6.4 Validasi
+#### 6.4 Validasi
 - Membuka file `contact.component.html` dan tambahkan code berikut :
 
 ```
@@ -512,7 +512,7 @@ contactMethods=[
 ```
 - Hasilnya:
 
-![](image/chapter1/6/6.11contact method.png)
+![](image/chapter1/6/6.11.png)
 
 -  Selain itu kita juga dapat menampilkan property id dan property nama dengan menggunakan property ngValue seperti berikut :
 

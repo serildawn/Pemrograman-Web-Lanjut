@@ -65,10 +65,12 @@ export class CoursesComponent implements OnInit {
 
 ---
 #### Praktikum bagian 2
-- Membuka file ** courses.component.ts ** tambahkan property colspan dibawah line imageUrl.
+- Membuka file **courses.component.ts** tambahkan property colspan dibawah line imageUrl.
+
 ![](image/chapter1/p2.1.png)
 
-- Membuka file ** courses.component.html ** dan menambahkan berikut ini :
+- Membuka file **courses.component.html** dan menambahkan berikut ini :
+
 ![](image/chapter1/p2.2.png)
 
 - Lalu muncul error seperti :
@@ -141,7 +143,7 @@ export class CoursesComponent implements OnInit {
 
 - Menjalankan localhost dan melakukan inspect elemen. 
   ![](image/chapter1/j4soal7.png) 
-  
+
 ---
 #### Praktikum bagian 6
 

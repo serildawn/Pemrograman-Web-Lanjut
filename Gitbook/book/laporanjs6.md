@@ -512,7 +512,7 @@ contactMethods=[
 ```
 - Hasilnya:
 
-![](image/chapter1/6/6.11.png)
+![](image/chapter1/6/contact.png)
 
 -  Selain itu kita juga dapat menampilkan property id dan property nama dengan menggunakan property ngValue seperti berikut :
 

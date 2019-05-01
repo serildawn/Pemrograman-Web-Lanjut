@@ -67,6 +67,7 @@ export class CoursesComponent implements OnInit {
 #### Praktikum bagian 2
 - Membuka file ** courses.component.ts ** tambahkan property colspan dibawah line imageUrl.
 ![](image/chapter1/p2.1.png)
+
 - Membuka file ** courses.component.html ** dan menambahkan berikut ini :
 ![](image/chapter1/p2.2.png)
 
@@ -79,7 +80,7 @@ export class CoursesComponent implements OnInit {
 - Setelah di compile maka hasilnya : 
 ![](image/chapter1/j4soal2.png)
 
-- Selanjutnya menambahkan button pada ** courses.component.html ** seperti berikut :
+- Selanjutnya menambahkan button pada **courses.component.html** seperti berikut :
 ![](image/chapter1/p2.6.png)
 
 - Maka hasilnya seperti berikut :
@@ -94,6 +95,7 @@ export class CoursesComponent implements OnInit {
 - Merubah ` isActive ` menjadi false.
 
  ![](image/chapter1/p3.3.png)
+
 ---
 #### Praktikum bagian 4
 - Membuka file ** courses.component.html ** kemudian tambahkan code berikut :
@@ -107,10 +109,13 @@ export class CoursesComponent implements OnInit {
 #### Praktikum bagian 5
 - Membuka file ** course.component.ts ** dan buatlah method dengan nama ` onSave() `.
  ![](image/chapter1/p5.1.png)
+
 - Membuka file ** courses.component.html ** dan menambahkan ` event click `.
  ![](image/chapter1/p5.2.png)
+
 - Membuka ** file courses.component.ts **  menambahkan parameter ` $event `.
  ![](image/chapter1/p5.4.png)
+
 - Menammbahkan juga pada ** courses.component.html ** .
 ```
 <div (click) = "onDivClick($event)">
@@ -120,11 +125,13 @@ export class CoursesComponent implements OnInit {
 
 - Menjalankan localhost dan inspect element
  ![](image/chapter1/j4soal5.png)
+
 - Membuat method ` onDivClick() ` pada ** courses.component.ts **.
  ![](image/chapter1/p5.7.png)
 
 - Menambahkan div dan event binding pada div elemen
  ![](image/chapter1/p5.8.png)
+
 - Menjalankan localhost dan melakukan inspect elemen.
  ![](image/chapter1/j4soal6.png)
 
@@ -134,6 +141,7 @@ export class CoursesComponent implements OnInit {
 
 - Menjalankan localhost dan melakukan inspect elemen. 
   ![](image/chapter1/j4soal7.png) 
+  
 ---
 #### Praktikum bagian 6
 

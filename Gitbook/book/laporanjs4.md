@@ -74,12 +74,15 @@ export class CoursesComponent implements OnInit {
 ![](image/chapter1/p2.2.png)
 
 - Lalu muncul error seperti :
+
 ![](image/chapter1/error.png)
 
 - Menambahkan attr pada colspan seperti berikut :
+
 ![](image/chapter1/p2.4.png)
 
 - Setelah di compile maka hasilnya : 
+
 ![](image/chapter1/j4soal2.png)
 
 - Selanjutnya menambahkan button pada **courses.component.html** seperti berikut :
@@ -126,6 +129,7 @@ export class CoursesComponent implements OnInit {
 ```
 
 - Menjalankan localhost dan inspect element
+
  ![](image/chapter1/j4soal5.png)
 
 - Membuat method ` onDivClick() ` pada ** courses.component.ts **.
@@ -153,14 +157,14 @@ export class CoursesComponent implements OnInit {
 
 ```
 - Menambahkan method `onKeyUp`:
+
  ![](image/chapter1/p6.png)
 
 
-- Soal 8
- ![](image/chapter1/j4soal8.png) 
 
-- Soal 9
- ![](image/chapter1/j4soal9.png) 
+
+- Hasilnya
+ ![](image/chapter1/p6a.png) 
 
 ---
 #### Praktikum bagian 7
@@ -172,10 +176,7 @@ export class CoursesComponent implements OnInit {
 
 - Menambahkan parameter nama pada method onKeyUp():
 ![](image/chapter1/p7.png) 
-
-
-- Soal 10 
- ![](image/chapter1/j4soal10.png) 
+ 
 
 ---
 #### Praktikum bagian 8
@@ -195,4 +196,5 @@ export class CoursesComponent implements OnInit {
  ![](image/chapter1/p8a.png)
 
 - Soal 12
+
  ![](image/chapter1/j4soal12.png)

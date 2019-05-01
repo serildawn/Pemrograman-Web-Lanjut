@@ -339,15 +339,15 @@ export class ContactComponent implements OnInit {
 ```
 - Hasil nya:
 
-![](image/chapter1/6/6.3.1.png)
+![](image/chapter1/6/6.3.png)
 
 - Membuka file **contact.component.html**
 
-![](image/chapter1/6/6.3.ngmodel.png)
+![](image/chapter1/6/ng.png)
 
 - Menjalankan server dan lihat pada inspect maka akan muncul property dari ngModel 
 
-![](image/chapter1/6/6.3inspect.png)
+![](image/chapter1/6/inspect.png)
 
 ---
 #### 6.4 Validasi
@@ -372,7 +372,7 @@ export class ContactComponent implements OnInit {
 
 - Maka hasilnya:
 
-![](image/chapter1/6/6.4.png)
+![](image/chapter1/6/nama.png)
 
 - Menambahkan suatu kondisi di `contact.component.html`
 
@@ -399,7 +399,7 @@ export class ContactComponent implements OnInit {
 
 - Maka hasilnya:
 
-![](image/chapter1/6/6.5.png)
+![](image/chapter1/6/minimal.png)
 
 ---
 #### 6.6 styling Invalid input field 
@@ -412,7 +412,7 @@ export class ContactComponent implements OnInit {
 
 - Maka hasilnya:
 
-![](image/chapter1/6/6.6.png)
+![](image/chapter1/6/border.png)
 
 ---
 #### 6.7 ngFor
@@ -478,7 +478,7 @@ log(z) {
 ```
 - Maka hasilnya:
 
-![](image/chapter1/6/6.9.png)
+![](image/chapter1/6/disable.png)
 
 ---
 #### 6.10 Bekerja dengan check box
@@ -523,7 +523,7 @@ contactMethods=[
 ```
 - Hasilnya:
 
-![](image/chapter1/6/6.11email.png)
+![](image/chapter1/6/email.png)
 
 - Selain itu juga kita dapat menggunakan multiple jika ingin memilih keduanya seperti berikut:
 
@@ -535,7 +535,7 @@ contactMethods=[
 
 - Hasilnya :
 
-![](image/chapter1/6/6.11multiple.png)
+![](image/chapter1/6/multiple.png)
 
 ---
 #### 6.12 Bekerja dengan radio button 
